@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "projecttemplate",
-    "slug": "projecttemplate",
+    "name": "quandoocriciumajoga",
+    "slug": "quandoocriciumajoga",
     "version": "1.0.0",
     "web": {
       "favicon": "./assets/favicon.png"
@@ -20,17 +20,29 @@
     ],
     "orientation": "portrait",
     "icon": "./assets/icon.png",
-    "userInterfaceStyle": "light",
+    "userInterfaceStyle": "dark",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#FACC15"
     },
     "assetBundlePatterns": [
       "**/*"
     ],
     "ios": {
       "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.kaualibrelato.quandoocriciumajoga"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "d56a3b13-ce09-4f95-aef6-f857744c30d7"
+      }
     }
   }
 }
