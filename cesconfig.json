@@ -1,6 +1,6 @@
 {
   "cesVersion": "2.12.1",
-  "projectName": "quandoocriciumajoga",
+  "projectName": "projecttemplate",
   "packages": [
     {
       "name": "react-navigation",
