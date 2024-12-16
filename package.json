@@ -1,5 +1,5 @@
 {
-  "name": "projecttemplate",
+  "name": "quandoocriciumajoga",
   "version": "1.0.0",
   "scripts": {
     "start": "expo start --dev-client",
@@ -14,7 +14,6 @@
   },
   "dependencies": {
     "@expo/vector-icons": "^14.0.0",
-    "@hookform/resolvers": "^3.9.1",
     "@react-native-async-storage/async-storage": "1.23.1",
     "@react-navigation/native": "^7.0.3",
     "@react-navigation/stack": "^7.0.4",
@@ -28,7 +27,6 @@
     "expo-status-bar": "~2.0.0",
     "phosphor-react-native": "^2.2.2",
     "react": "18.3.1",
-    "react-hook-form": "^7.54.1",
     "react-native": "0.76.5",
     "react-native-gesture-handler": "~2.20.2",
     "react-native-reanimated": "^3.16.5",
@@ -36,7 +34,6 @@
     "react-native-screens": "~4.1.0",
     "react-native-svg": "^15.10.1",
     "toastify-react-native": "^5.0.3",
-    "zod": "^3.24.1",
     "zustand": "^4.5.1"
   },
   "devDependencies": {
