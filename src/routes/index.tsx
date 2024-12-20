@@ -1,11 +1,11 @@
 import { NavigationContainer } from '@react-navigation/native';
 import React from 'react';
-import { StackRoutes } from './StackRoutes';
+import { TabRoutes } from './TabRoutes';
 
 export function RootStack() {
   return (
     <NavigationContainer>
-      <StackRoutes />
+      <TabRoutes />
     </NavigationContainer>
   );
 }

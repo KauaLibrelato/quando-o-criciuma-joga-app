@@ -1,34 +1,23 @@
-import { createTheme, useTheme as useRestyleTheme } from '@shopify/restyle';
-import { ImageStyle, TextStyle, ViewStyle } from 'react-native';
-import { borderRadius, colors, spacing } from './constants';
-
-type NamedStyles<T> = {
-  [P in keyof T]: ViewStyle | TextStyle | ImageStyle;
-};
-
-const theme = createTheme({
+export default {
   colors: {
-    ...colors,
+    bgColor: '#FACC15',
+    lowYellow: '#FFEFCC',
+    black: '#000000',
+    white: '#FFFFFF',
+    textColor: '#2B2B2B',
+    red: '#D5150B',
+    lowRed: '#FFDBD9',
+    green: '#20C634',
+    tableRow: '#F1F5F9',
+    tableHeader: '#DEE5ED',
+    lowBlue: '#c3c8fa',
   },
-  spacing: {
-    ...spacing,
+  fonts: {
+    thin: 'Roboto_100Thin',
+    light: 'Roboto_300Light',
+    regular: 'Roboto_400Regular',
+    medium: 'Roboto_500Medium',
+    bold: 'Roboto_700Bold',
+    black: 'Roboto_900Black',
   },
-  borderRadii: {
-    ...borderRadius,
-  },
-});
-
-export const useTheme = () => {
-  return useRestyleTheme<Theme>();
 };
-
-export const makeStyles = <T extends NamedStyles<T> | NamedStyles<unknown>>(
-  styles: (theme: Theme) => T
-) => {
-  return () => {
-    return styles(theme);
-  };
-};
-
-export type Theme = typeof theme;
-export default theme;

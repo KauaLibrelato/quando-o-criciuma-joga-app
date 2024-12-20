@@ -4,7 +4,7 @@ import { render } from '@testing-library/react-native';
 // Importar o componente ou funcionalidade que será testado
 // import { MyComponent } from '../MyComponent';
 
-describe('Home Tests', () => {
+describe('Example Tests', () => {
   // Descrição geral dos testes relacionados a pasta que será testada
 
   // beforeAll: Executado uma vez antes de TODOS os testes dentro deste describe
